@@ -4,6 +4,18 @@
 <meta charset=“UTF-8”>
 <title>Hannibal Andersen</title>
 <style>
+html, body {height: 100%;}
+
+#wrap {min-height: 100%;}
+
+#main {overflow:auto;
+	padding-bottom: 150px;}  /* must be same height as the footer */
+
+#footer {position: relative;
+	margin-top: -150px; /* negative value of footer height */
+	height: 150px;
+	clear:both;} 
+
 .fullscreen-bg {
     position: fixed;
     top: 0;
@@ -41,11 +53,11 @@
 </head>
 
 <body>
-
+<div id="footer">
 <p>
-<h4 style="text-align:center; color:gold; text-decoration:none; font-family:'open sans'; vertical-align:bottom">...will be back shortly<br><a href="mailto:hannibalandersen@gmail.com">hannibalandersen@gmail.com</a></font></h4>
+<h4 style="text-align:center; color:gold; text-decoration:none; font-family:'open sans';">...will be back shortly<br><a href="mailto:hannibalandersen@gmail.com">hannibalandersen@gmail.com</a></font></h4>
 </p>
-
+</div>
 <div class="fullscreen-bg">
     <video loop muted autoplay poster="img/videoframe.jpg" class="fullscreen-bg__video">
         <source src="video/20_SLOW.mp4" type="video/mp4">
