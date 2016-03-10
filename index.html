@@ -3,6 +3,47 @@
 <head>
 <meta charset=“UTF-8”>
 <title>Hannibal Andersen</title>
+
+<script>
+(function($){
+    $.fn.extend({ 
+        rotaterator: function(options) {
+ 
+            var defaults = {
+                fadeSpeed: 500,
+                pauseSpeed: 100,
+				child:null
+            };
+             
+            var options = $.extend(defaults, options);
+         
+            return this.each(function() {
+                  var o =options;
+                  var obj = $(this);                
+                  var items = $(obj.children(), obj);
+				  items.each(function() {$(this).hide();})
+				  if(!o.child){var next = $(obj).children(':first');
+				  }else{var next = o.child;
+				  }
+				  $(next).fadeIn(o.fadeSpeed, function() {
+						$(next).delay(o.pauseSpeed).fadeOut(o.fadeSpeed, function() {
+							var next = $(this).next();
+							if (next.length == 0){
+									next = $(obj).children(':first');
+							}
+							$(obj).rotaterator({child : next, fadeSpeed : o.fadeSpeed, pauseSpeed : o.pauseSpeed});
+						})
+					});
+            });
+        }
+    });
+})(jQuery);
+
+ $(document).ready(function() {
+        $('#rotate').rotaterator({fadeSpeed:500, pauseSpeed:100});
+ });
+</script>
+
 <style>
 h4 {
  text-align:center; color:gold; font-family:'open sans';
@@ -88,7 +129,7 @@ a:active {
 </head>
 <body>
 <div id="outPopUp">
-<h4>...will be back shortly<br><a href="mailto:hannibalandersen@gmail.com">hannibalandersen@gmail.com</a></font></h4>
+<h4>...will be back shortly<br><div id="rotate"> <div><a href="mailto:hannibalandersen@gmail.com">hannibalandersen@gmail.com</a></div></h4>
 </div>
 <div class="fullscreen-bg">
     <video loop muted autoplay poster="video/videoframe.jpg" class="fullscreen-bg__video">
