@@ -7,20 +7,6 @@
 h4 {
  text-align:center; color:gold; font-family:'open sans';
  }
-
-div.transbox {
-  margin: 30px;
-  background-color: #ffffff;
-  border: none;
-  opacity: 0.6;
-  filter: alpha(opacity=60); /* For IE8 and earlier */
-}
-
-div.transbox p {
-  margin: 5%;
-  font-weight: bold;
-  color: #000000;
-}
  
 #outPopUp {
   position: absolute;
@@ -71,7 +57,7 @@ html, body {height: 100%;}
 
 @media (max-width: 767px) {
     .fullscreen-bg {
-        background: url('..//dev2.slicejack.com/fullscreen-video-demo/img/videoframe.jpg') center center / cover no-repeat;
+        background: url(video/videoframe.jpg') center center / cover no-repeat;
     }
 
     .fullscreen-bg__video {
@@ -101,16 +87,12 @@ a:active {
 </style>
 </head>
 <body>
-  <div class="transbox">
 <div id="outPopUp">
-<p>
 <h4>...will be back shortly<br><a href="mailto:hannibalandersen@gmail.com">hannibalandersen@gmail.com</a></font></h4>
-</p>
-</div></div>
+</div>
 <div class="fullscreen-bg">
     <video loop muted autoplay poster="video/videoframe.jpg" class="fullscreen-bg__video">
         <source src="video/20_SLOW.mp4" type="video/mp4">
     </video>
-
 </body>
 </html>
