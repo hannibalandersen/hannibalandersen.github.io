@@ -6,8 +6,33 @@
 <style>
 h4 {
  text-align:center; color:gold; font-family:'open sans';
+ }
+
+div.transbox {
+  margin: 30px;
+  background-color: #ffffff;
+  border: none;
+  opacity: 0.6;
+  filter: alpha(opacity=60); /* For IE8 and earlier */
 }
 
+div.transbox p {
+  margin: 5%;
+  font-weight: bold;
+  color: #000000;
+}
+ 
+#outPopUp {
+  position: absolute;
+  width: 300px;
+  height: 200px;
+  z-index: 15;
+  top: 50%;
+  left: 50%;
+  margin: -100px 0 0 -150px;
+  background: transparent
+}
+ 
 html, body {height: 100%;}
 
 #wrap {min-height: 100%;}
@@ -76,8 +101,12 @@ a:active {
 </style>
 </head>
 <body>
+  <div class="transbox">
+<div id="outPopUp">
+<p>
 <h4>...will be back shortly<br><a href="mailto:hannibalandersen@gmail.com">hannibalandersen@gmail.com</a></font></h4>
-
+</p>
+</div></div>
 <div class="fullscreen-bg">
     <video loop muted autoplay poster="video/videoframe.jpg" class="fullscreen-bg__video">
         <source src="video/20_SLOW.mp4" type="video/mp4">
