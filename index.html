@@ -1,98 +1,239 @@
-<!DOCTYPE HTML>
-<html lang = “en”>
+
+<!DOCTYPE html>
+<!--[if lt IE 7 ]><html class="ie ie6" lang="en"> <![endif]-->
+<!--[if IE 7 ]><html class="ie ie7" lang="en"> <![endif]-->
+<!--[if IE 8 ]><html class="ie ie8" lang="en"> <![endif]-->
+<!--[if (gte IE 9)|!(IE)]><!--><html lang="en"> <!--<![endif]-->
 <head>
-<meta charset=“UTF-8”>
-<title>Hannibal Andersen</title>
-<style>
-h4 {
- text-align:center; color:gold; font-family:'open sans';
- }
- 
-#outPopUp {
-  position: absolute;
-  width: 300px;
-  height: 200px;
-  z-index: 15;
-  top: 50%;
-  left: 50%;
-  margin: -100px 0 0 -150px;
-  background: transparent
-}
- 
-html, body {height: 98%;}
 
-#wrap {min-height: 100%;}
+	<!-- Basic Page Needs
+	================================================== -->
+	<meta charset="utf-8">
+	<title>hannibal andersen</title>
+	<meta name="description" content=".">
+	<meta name="author" content="">
+	
+	<!-- Mobile Specific Metas
+	================================================== -->
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+	
+	<!-- CSS Files
+	* cssreset-min.css 			- CSS reset
+	* typegrid.css				- Responsive grid system
+	* style.css					- Main CSS file
+	
+	Original LESS Stylesheet
+	<link rel="stylesheet/less" type="text/css" href="css/style.less" />
+	================================================== -->
+	<link rel="stylesheet" type="text/css" href="http://yui.yahooapis.com/3.8.0/build/cssreset/cssreset-min.css">
+	<link rel="stylesheet" type="text/css" href="css/typegrid.css">
+	<link rel="stylesheet" type="text/css" href="css/style.css">
 
-#main {overflow:auto;
-	padding-bottom: 150px;}  /* must be same height as the footer */
 
-#footer {position: relative;
-	margin-top: -150px; /* negative value of footer height */
-	height: 150px;
-	clear:both;} 
+		
+	<!--[if lt IE 8]>
+		<script src="http://ie7-js.googlecode.com/svn/version/2.1(beta4)/IE8.js"></script>
+	<![endif]-->
 
-.fullscreen-bg {
-    position: fixed;
-    top: 0;
-    right: 0;
-    bottom: 0;
-    left: 0;
-    overflow: hidden;
-    z-index: -100;
-}
+	<!--[if lt IE 9]>
+		<script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+	<![endif]-->
 
-.fullscreen-bg__video {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    width: auto;
-    height: auto;
-    min-width: 100%;
-    min-height: 100%;
-    -webkit-transform: translate(-50%, -50%);
-       -moz-transform: translate(-50%, -50%);
-        -ms-transform: translate(-50%, -50%);
-	    transform: translate(-50%, -50%);
-}
+	<link href='http://fonts.googleapis.com/css?family=Roboto+Slab:400,300' rel='stylesheet' type='text/css'>
 
-@media (max-width: 767px) {
-    .fullscreen-bg {
-        background: url(video/videoframe.jpg') center center / cover no-repeat;
-    }
+	<!-- Favicons
+	================================================== -->
+	<link rel="shortcut icon" href="images/favicon.ico">
+	<link rel="apple-touch-icon" href="images/apple-touch-icon.png">
 
-    .fullscreen-bg__video {
-        display: none;
-    }
-}
-
-/* unvisited link */
-a:link {
-    color: gold; text-decoration:none;
-}
-
-/* visited link */
-a:visited {
-    color: white; text-decoration:none;
-}
-
-/* mouse over link */
-a:hover {
-    color: pink; text-decoration:none;
-}
-
-/* selected link */
-a:active {
-    color: white; text-decoration:none;
-}
-</style>
 </head>
+
 <body>
-<div id="outPopUp">
-<h4>...will be back shortly<br><a href="mailto:hannibalandersen@gmail.com">hannibalandersen@gmail.com</a></h4>
-</div>
-<div class="fullscreen-bg">
-    <video loop muted autoplay poster="video/videoframe.jpg" class="fullscreen-bg__video">
-        <source src="video/20_SLOW.mp4" type="video/mp4">
-    </video>
+
+
+	<!-- Header - Half Logo
+	================================================== -->
+	<section id="header">
+
+		<!-- * * * * * * * * * * * * * * * * * * * * * * *
+
+			Top Bar & Menu (#nav)
+
+		* * * * * * * * * * * * * * * * * * * * * * * * -->
+		<div class="topbar">
+			<div class="container">
+					
+				<!--
+					A custom jQuery plugin called typeMenu handles the menu
+					Add .hide-on-mobile to <li> elements to hide a specific item on mobile viewports
+				-->
+				<ul id="nav" class="full">
+					<li>
+						<a href="menu.html">
+							Menu
+						</a>
+						<ul>
+							<li><a href="work.html">Work</a></li>
+							<li><a href="cv.html">CV</a></li>
+							<li><a href="calendar.html">Calendar</a></li>
+						</ul>
+					</li>
+
+					
+				</ul><!-- // #nav -->
+
+			</div><!-- // .container -->
+		</div><!-- // .topbar -->
+
+		<div class="logo-wrap">
+			<div class="container">
+				<div class="desktop-6 columns">
+					<h1><a href="index.html" title="Home"><img src="images/logo_text_half.png" alt="" /></a></h1>
+				</div><!-- // .desktop-6 -->
+
+				
+
+				<div class="clear"></div>
+			</div><!-- // .container -->
+		</div><!-- // .logo-wrap -->
+	</section><!-- // #header -->
+
+
+	<!-- Works
+	================================================== -->
+	<section id="works">
+		<div class="container">
+			<div class="desktop-12 columns"><div class="border-top"></div></div>
+
+			
+				<a href="labour_jelly.html" class="permalink">
+					<div class="desktop-3 mobile-half columns">
+						<div class="item first-row">
+							<h3>Labour Jelly</h3>
+							<!-- // <span class="category">Labour jelly</span>  -->
+
+							<img src="images/thumb_item01.png" alt="" />
+						</div><!-- // .item -->
+					</div><!-- // .desktop-3 -->
+				</a>
+				
+				<a href="models_for_a_smooth_society.html" class="permalink">
+					<div class="desktop-3 mobile-half columns">
+						<div class="item first-row">
+							<h3>Models for a smooth society</h3>
+					
+
+							<img src="images/thumb_item02.png" alt="" />
+						</div><!-- // .item -->
+					</div><!-- // .desktop-3 -->
+				</a>
+				
+				<a href="single-illustration-sidebar-left.html" class="permalink">
+					<div class="desktop-3 mobile-half columns">
+						<div class="item first-row">
+							<h3>Deer</h3>
+							
+
+							<img src="images/thumb_item03.png" alt="" />
+						</div><!-- // .item -->
+					</div><!-- // .desktop-3 -->
+				</a>
+				
+				<a href="single-illustration-sidebar-left.html" class="permalink">
+					<div class="desktop-3 mobile-half columns">
+						<div class="item first-row">
+							<h3>Horse</h3>
+						
+
+							<img src="images/thumb_item04.png" alt="" />
+						</div><!-- // .item -->
+					</div><!-- // .desktop-3 -->
+				</a>
+				
+				<div class="clear"></div>
+			
+				<a href="single-illustration-sidebar-left.html" class="permalink">
+					<div class="desktop-3 mobile-half columns">
+						<div class="item">
+							<h3>Cycle</h3>
+						
+
+							<img src="images/thumb_item05.png" alt="" />
+						</div><!-- // .item -->
+					</div><!-- // .desktop-3 -->
+				</a>
+				
+				<a href="single-illustration-sidebar-left.html" class="permalink">
+					<div class="desktop-3 mobile-half columns">
+						<div class="item">
+							<h3>Crown</h3>
+						
+
+							<img src="images/thumb_item06.png" alt="" />
+						</div><!-- // .item -->
+					</div><!-- // .desktop-3 -->
+				</a>
+				
+				<a href="single-illustration-sidebar-left.html" class="permalink">
+					<div class="desktop-3 mobile-half columns">
+						<div class="item">
+							<h3>Lens</h3>
+						
+
+							<img src="images/thumb_item07.png" alt="" />
+						</div><!-- // .item -->
+					</div><!-- // .desktop-3 -->
+				</a>
+				
+				
+				
+				<div class="clear"></div>
+			
+		</div><!-- // .container -->
+	</section><!-- // section#works -->
+
+
+
+
+	<!-- Footer
+	================================================== -->
+	<section id="footer">
+		<div class="container">
+			<div class="desktop-3 columns">
+			<p align="right">hannibalandersen@gmail.com</p>
+			</div><!-- // .desktop-3 -->
+
+			<div class="clear"></div>
+		</div><!-- // .container -->
+	</section><!-- // section#footer -->
+
+
+	<!-- JS
+	================================================== -->
+	<!-- 
+		Flexslider 2.1 has known issues of manualControls setting with jQuery 1.9~
+		Use jQuery 1.8 until Flexslider 2.2 stable version is released
+	-->
+	<script src="//ajax.googleapis.com/ajax/libs/jquery/1.8/jquery.min.js"></script>
+	<script src="js/jQuery.BlackAndWhite.min.js"></script>
+	<script src="js/modernizr.js"></script>
+	<script src="js/less-1.4.0.min.js"></script>
+	<script src="js/jquery.typeMenu.js"></script>
+	<script src="js/jquery.typeSticky.js"></script>
+
+
+	
+
+	
+
+
+	
+
+
+	<script src="js/jquery.custom.js"></script>
+
+
+<!-- End Document
+================================================== -->
 </body>
 </html>
