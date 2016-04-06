@@ -1,0 +1,98 @@
+<!DOCTYPE HTML>
+<html lang = “en”>
+<head>
+<meta charset=“UTF-8”>
+<title>Hannibal Andersen</title>
+<style>
+h4 {
+ text-align:center; color:gold; font-family:'open sans';
+ }
+ 
+#outPopUp {
+  position: absolute;
+  width: 300px;
+  height: 200px;
+  z-index: 15;
+  top: 50%;
+  left: 50%;
+  margin: -100px 0 0 -150px;
+  background: transparent
+}
+ 
+html, body {height: 98%;}
+
+#wrap {min-height: 100%;}
+
+#main {overflow:auto;
+	padding-bottom: 150px;}  /* must be same height as the footer */
+
+#footer {position: relative;
+	margin-top: -150px; /* negative value of footer height */
+	height: 150px;
+	clear:both;} 
+
+.fullscreen-bg {
+    position: fixed;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    overflow: hidden;
+    z-index: -100;
+}
+
+.fullscreen-bg__video {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: auto;
+    height: auto;
+    min-width: 100%;
+    min-height: 100%;
+    -webkit-transform: translate(-50%, -50%);
+       -moz-transform: translate(-50%, -50%);
+        -ms-transform: translate(-50%, -50%);
+	    transform: translate(-50%, -50%);
+}
+
+@media (max-width: 767px) {
+    .fullscreen-bg {
+        background: url(video/videoframe.jpg') center center / cover no-repeat;
+    }
+
+    .fullscreen-bg__video {
+        display: none;
+    }
+}
+
+/* unvisited link */
+a:link {
+    color: gold; text-decoration:none;
+}
+
+/* visited link */
+a:visited {
+    color: white; text-decoration:none;
+}
+
+/* mouse over link */
+a:hover {
+    color: pink; text-decoration:none;
+}
+
+/* selected link */
+a:active {
+    color: white; text-decoration:none;
+}
+</style>
+</head>
+<body>
+<div id="outPopUp">
+<h4>...will be back shortly<br><a href="mailto:hannibalandersen@gmail.com">hannibalandersen@gmail.com</a></h4>
+</div>
+<div class="fullscreen-bg">
+    <video loop muted autoplay poster="video/videoframe.jpg" class="fullscreen-bg__video">
+        <source src="video/20_SLOW.mp4" type="video/mp4">
+    </video>
+</body>
+</html>
