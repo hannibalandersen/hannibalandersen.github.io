@@ -79,6 +79,16 @@ a:focus { color: black; }
 p a,
 p a:visited { line-height: inherit; }
 
+ul li a {
+    color:#999;       
+    transition: color 0.5s linear; /* vendorless fallback */
+    -o-transition: color 0.5s linear; /* opera */
+    -ms-transition: color 0.5s linear; /* IE 10 */
+    -moz-transition: color 0.5s linear; /* Firefox */
+    -webkit-transition: color 0.5s linear; /*safari and chrome */
+}
+
+
 
 
 /* Visibility */
