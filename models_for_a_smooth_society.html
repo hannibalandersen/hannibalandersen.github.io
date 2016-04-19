@@ -73,6 +73,11 @@
     a.fancybox:hover img {
         position: relative; z-index: 999; -o-transform: scale(1.03,1.03); -ms-transform: scale(1.03,1.03); -moz-transform: scale(1.03,1.03); -webkit-transform: scale(1.03,1.03); transform: scale(1.03,1.03);
     }
+	.fancybox-opened .fancybox-skin {
+	-webkit-box-shadow: 0 0 0;
+	   -moz-box-shadow: 0 0 0;
+	        box-shadow: 0 0 0;
+}
 </style>
 </head>
 
@@ -251,6 +256,9 @@
         });
     });
     $.noConflict();
+	$(".fancybox").fancybox({
+    padding: 0 // remove white border
+});
 </script>
 
 <!-- End Document
