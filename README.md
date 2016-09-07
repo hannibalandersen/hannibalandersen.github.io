@@ -1,37 +1,27 @@
-typefolio
-=========
+# [Start Bootstrap](http://startbootstrap.com/) - [Full](http://startbootstrap.com/template-overviews/full/)
 
-## Overview
+[Full](http://startbootstrap.com/template-overviews/full/) is full page background image HTML starter template for [Bootstrap](http://getbootstrap.com/) created by [Start Bootstrap](http://startbootstrap.com/).
 
-Typefolio is a template for agencies/designers/photographers/etc. 
+## Getting Started
 
+To begin using this template, choose one of the following options to get started:
+* [Download the latest release on Start Bootstrap](http://startbootstrap.com/template-overviews/full/)
+* Clone the repo: `git clone https://github.com/BlackrockDigital/startbootstrap-full.git`
+* Fork the repo
 
-## Preview
+## Bugs and Issues
 
-[http://preview.typebig.com/typefolio-html/](http://preview.typebig.com/typefolio-html/)
+Have a bug or an issue with this template? [Open a new issue](https://github.com/BlackrockDigital/startbootstrap-full/issues) here on GitHub or leave a comment on the [template overview page at Start Bootstrap](http://startbootstrap.com/template-overviews/full/).
 
-![Screenshot](http://preview.typebig.com/github-preview-images/typefolio_github_preview.png)
+## Creator
 
+Start Bootstrap was created by and is maintained by **[David Miller](http://davidmiller.io/)**, Owner of [Blackrock Digital](http://blackrockdigital.io/).
 
+* https://twitter.com/davidmillerskt
+* https://github.com/davidtmiller
 
-## Features
-* Valid W3C HTML5
-* Fully responsive
-* Custom-built Responsive CSS Grid System
-* Custom-built JS menu & sticky sidebar
-* Lightweight
+Start Bootstrap is based on the [Bootstrap](http://getbootstrap.com/) framework created by [Mark Otto](https://twitter.com/mdo) and [Jacob Thorton](https://twitter.com/fat).
 
+## Copyright and License
 
-
-## License Information
-
-* Feel free to use it in a personal/commercial project. 
-* Please do not resell in template/theme markets!
-* I've purchased the images from various sources (mainly Shutterstock), and I don't have extended licenses for most of them. In other words, **you can't use the placeholder images as-is**.
-
-
-
-## Other
-
-I will try to continue updating this readme, and will eventually add a doc file for this template. 
-Feel free to e-mail me at [subwaymatch@gmail.com](mailto:subwaymatch@gmail.com) for any questions. 
+Copyright 2013-2016 Blackrock Digital LLC. Code released under the [MIT](https://github.com/BlackrockDigital/startbootstrap-full/blob/gh-pages/LICENSE) license.
