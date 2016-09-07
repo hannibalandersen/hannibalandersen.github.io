@@ -40,6 +40,16 @@ body {
 	-webkit-text-size-adjust: 100%;
 }
 
+/* fade thumbnail */
+.image-wrapper a:hover img {
+   opacity: 0.3;
+   transition: opacity 0.25s ease-in-out 0s;
+ }
+ .image-wrapper a img {
+   opacity: 1;
+   transition: opacity 0.25s ease-in-out 0s;
+ }
+
 @media screen and (max-width: 767px) { 
 	body {
 		font-size: 12px;
