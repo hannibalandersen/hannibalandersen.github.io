@@ -1,101 +1,72 @@
-<!DOCTYPE html>
-<html class="full" lang="en">
-<!-- Make sure the <html> tag is set to the .full CSS class. Change the background image in the full.css file. -->
-
+<!DOCTYPE HTML>
+<html>
 <head>
 
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="description" content="">
-    <meta name="author" content="">
+<!-- 
 
-    <title>hannibal andersen</title>
+	To use this code, you'll need to update your email address in the javascript 
+	on this page, and in the php code in submit.php
+	
+	If you add any form fields to this page, you will also need to update the PHP script.
+	
+	You are 100% allowed to remove the credit link at the bottom and do whatever 
+	you like with the form.  However, I would greatly appreciate it if you left 
+	the link intact :)
+		
+	Thanks,
+	-Nathan
+	
+-->
 
-    <!-- Bootstrap Core CSS -->
-    <link href="css/bootstrap.min.css" rel="stylesheet">
-
-    <!-- Custom CSS -->
-    <link href="css/full.css" rel="stylesheet">
-
-    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
-    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
-    <!--[if lt IE 9]>
-        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
-        <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
-    <![endif]-->
+	<title>Contact Form</title>
+	
+	<style type="text/css">
+		.antispam { display:none;}
+	</style>
+	
+	<script type="text/javascript">
+		// split your email into two parts and remove the @ symbol
+		var first = "yourname";
+		var last = "yoursite.com";
+	</script>
 
 </head>
-
 <body>
 
-    <!-- Navigation -->
-    <nav class="navbar navbar-inverse navbar-fixed-top" role="navigation">
-        <div class="container">
-            <!-- Brand and toggle get grouped for better mobile display -->
-            <div class="navbar-header">
-                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
-                    <span class="sr-only">Toggle navigation</span>
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
-                </button>
-                <a class="navbar-brand" href="index.html">hannibal andersen</a>
-            </div>
-            <!-- Collect the nav links, forms, and other content for toggling -->
-            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-                <ul class="nav navbar-nav">
-                    <li>
-                        <a href="selectedworks.html">selected works</a>
-                    </li>
-                    <li>
-                        <a href="about.html">about</a>
-                    </li>
-                    <li>
-                        <a href="contact.html">contact</a>
-                    </li>
-                </ul>
-            </div>
-            <!-- /.navbar-collapse -->
-        </div>
-        <!-- /.container -->
-    </nav>
 
-    <!-- Put your page content here! -->
-    
-    <div class="container">  
-  <form id="contact" action="" method="post">
-    <h3>Colorlib Contact Form</h3>
-    <h4>Contact us for custom quote</h4>
-    <fieldset>
-      <input placeholder="Your name" type="text" tabindex="1" required autofocus>
-    </fieldset>
-    <fieldset>
-      <input placeholder="Your Email Address" type="email" tabindex="2" required>
-    </fieldset>
-    <fieldset>
-      <input placeholder="Your Phone Number (optional)" type="tel" tabindex="3" required>
-    </fieldset>
-    <fieldset>
-      <input placeholder="Your Web Site (optional)" type="url" tabindex="4" required>
-    </fieldset>
-    <fieldset>
-      <textarea placeholder="Type your message here...." tabindex="5" required></textarea>
-    </fieldset>
-    <fieldset>
-      <button name="submit" type="submit" id="contact-submit" data-submit="...Sending">Submit</button>
-    </fieldset>
-  </form>
-</div>
+	<form method="post" action="submit.php">
+	
+		<p>Your name:
+		<br /><input name="name" /></p>
+		
+		<p>Your email:
+		<br /><input name="email" /></p>
+		
+		<!-- Important: if you add any fields to this page, you will also need to update the php script -->
+		
+		<p class="antispam">Leave this empty:
+		<br /><input name="url" /></p>
+		
+		<p>Your message:
+		<br /><textarea name="message" rows="10" cols="50"></textarea></p>
+		
+		<p><input type="submit" value="Send" /></p>
+		
+	</form>
+	
+	
+	<p>My e-mail address:
+	<script type="text/javascript">
+		document.write('<a href="mailto:'+first + '@' + last+'">'+first + '@' + last+'<\/a>');
+	</script>
+	<noscript>
+	Please enable javascript or use the contact form.
+	</noscript>
+	</p>
+	
+	<p><small><a href="https://github.com/nfriedly/spam-free-php-contact-form">Spam-free contact form</a> by <a href="http://nfriedly.com/" title="Nathan Friedly - JavaScript / node.js developer">Nathan Friedly</a></small></p>
 
-    <!-- jQuery -->
-    <script src="js/jquery.js"></script>
 
-    <!-- Bootstrap Core JavaScript -->
-    
-    <div id="bg"></div>
-	<script src="js/bootstrap.min.js"></script>
 
 </body>
-
 </html>
