@@ -20,18 +20,26 @@
 
 	<title>Contact Form</title>
 	
-	 <link href="css/bootstrap.min.css" rel="stylesheet">
+	<style type="text/css">
+		.antispam { display:none;}
+	</style>
 	
 	<script type="text/javascript">
 		// split your email into two parts and remove the @ symbol
 		var first = "hannibalandersen";
 		var last = "gmail.com";
 	</script>
+    
+    <!-- Bootstrap Core CSS -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Custom CSS -->
+    <link href="css/full.css" rel="stylesheet">
 
 </head>
 <body>
 
-
+<div class="container">
 	<form method="post" action="submit.php">
 	
 		<p>Your name:
@@ -61,6 +69,7 @@
 	Please enable javascript or use the contact form.
 	</noscript>
 	</p>
+    </div>
 	
 	
 
