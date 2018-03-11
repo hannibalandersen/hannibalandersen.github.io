@@ -1,0 +1,7 @@
+0.0.0.0 costume.dk
+0.0.0.0 www.costume.dk
+0.0.0.0 https://costume.dk
+0.0.0.0 youtube.com
+0.0.0.0 m.youtube.com
+0.0.0.0 www.youtube.com
+0.0.0.0 https://youtube.com
