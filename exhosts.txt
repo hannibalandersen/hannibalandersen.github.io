@@ -8,3 +8,5 @@
 0.0.0.0 www.elle.dk
 0.0.0.0 elle.dk
 0.0.0.0 https://elle.dk
+0.0.0.0 https://eurowoman.dk
+0.0.0.0 https://clinique.dk
