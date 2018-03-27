@@ -10,3 +10,4 @@
 0.0.0.0 https://elle.dk
 0.0.0.0 https://eurowoman.dk
 0.0.0.0 https://clinique.dk
+0.0.0.0 https://instagram.com
