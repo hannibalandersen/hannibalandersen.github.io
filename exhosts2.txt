@@ -60,4 +60,6 @@
 0.0.0.0 dkmchess.com
 0.0.0.0 taarnbyskakklub.dk
 0.0.0.0 chessfriends.com
+0.0.0.0 www.chessfriends.com
+0.0.0.0 https://www.chessfriends.com
 
