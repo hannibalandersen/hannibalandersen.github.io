@@ -13,7 +13,8 @@
 /* optional: show position indicator in red */
 ::-webkit-scrollbar-thumb {
  background: #FF0000;
-} {
+} 
+{
 font-family:sans-serif;
 -webkit-text-size-adjust:100%;
 -ms-text-size-adjust:100%
