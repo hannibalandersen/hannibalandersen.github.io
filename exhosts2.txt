@@ -1,3 +1,15 @@
+0.0.0.0	https://2700chess.com
+0.0.0.0 www.2700chess.com
+0.0.0.0 2700chess.com
+0.0.0.0	vue.inquid.co
+0.0.0.0	http://blog.chesshouse.com
+0.0.0.0	blog.chesshouse.com
+0.0.0.0	151.101.65.195
+127.0.0.1 151.101.65.195
+0.0.0.0	https://chessui.com
+0.0.0.0	http://chessui.com
+0.0.0.0	chessui.com/
+0.0.0.0	www.chessui.com/
 0.0.0.0 flyordie.com
 0.0.0.0 www.flyordie.com
 0.0.0.0 gameknot.com
