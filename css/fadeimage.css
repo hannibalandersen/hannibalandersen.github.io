@@ -15,7 +15,6 @@
   opacity: 0;
   transition: .5s ease;
   background-color: #ffffff;
-	
 }
 
 .fadecontainer:hover .overlay {
