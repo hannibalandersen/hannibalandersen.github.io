@@ -17,7 +17,8 @@
 {
 font-family:sans-serif;
 -webkit-text-size-adjust:100%;
--ms-text-size-adjust:100%
+-ms-text-size-adjust:100%;
+    
 }
 body {
 	margin: 0
@@ -1151,7 +1152,8 @@ hr {
 	font-size: 30px
 }
 .h3, h3 {
-	font-size: 24px
+	font-size: 24px;
+    color: red
 }
 .h4, h4 {
 	font-size: 18px;
@@ -2913,7 +2915,7 @@ a.btn.disabled, fieldset[disabled] a.btn {
 }
 .btn-link {
 	font-weight: 400;
-	color: #337ab7;
+	color: #FB4ACD;
 	border-radius: 0
 }
 .btn-link, .btn-link.active, .btn-link:active, .btn-link[disabled], fieldset[disabled] .btn-link {
@@ -2925,7 +2927,7 @@ a.btn.disabled, fieldset[disabled] a.btn {
 	border-color: transparent
 }
 .btn-link:focus, .btn-link:hover {
-	color: #23527c;
+	color: #FB4ACD;
 	text-decoration: underline;
 	background-color: transparent
 }
