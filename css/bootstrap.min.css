@@ -171,7 +171,8 @@ td, th {
 	box-shadow: none!important
 }
 a, a:visited {
-	text-decoration: underline
+	text-decoration: none;
+    color: cyan
 }
 a[href]:after {
 	content: " (" attr(href) ")"
@@ -1153,7 +1154,8 @@ hr {
 	font-size: 24px
 }
 .h4, h4 {
-	font-size: 18px
+	font-size: 18px;
+    color: red
 }
 .h5, h5 {
 	font-size: 14px
