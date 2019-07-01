@@ -14,8 +14,9 @@
 ::-webkit-scrollbar-thumb {
  background: #FF0000;
 } 
+
 {
-font-family:sans-serif;
+font-family: 'Assistant', sans-serif;
 -webkit-text-size-adjust:100%;
 -ms-text-size-adjust:100%;
     
@@ -1040,7 +1041,7 @@ html {
 	-webkit-tap-highlight-color: rgba(0,0,0,0)
 }
 body {
-	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+	font-family: 'Assistant', sans-serif;
 	font-size: 14px;
 	line-height: 1.42857143;
 	color: #333;
