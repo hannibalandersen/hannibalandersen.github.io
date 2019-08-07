@@ -15,3 +15,8 @@
 0.0.0.0 youtube.com
 0.0.0.0 ytimg.com
 0.0.0.0 googlevideo.com
+0.0.0.0 l.google.com
+0.0.0.0 www.youtube.com
+0.0.0.0 www.ytimg.com
+0.0.0.0 www.googlevideo.com
+
