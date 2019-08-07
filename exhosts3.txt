@@ -8,3 +8,8 @@
 0.0.0.0 https://clinique.dk
 0.0.0.0 https://instagram.com
 0.0.0.0 m.instagram.com
+0.0.0.0 m.youtube.com
+0.0.0.0 youtube.com
+0.0.0.0 ytimg.com
+0.0.0.0 googlevideo.com
+
