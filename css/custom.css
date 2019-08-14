@@ -1,3 +1,6 @@
-.navbar-inner {
-	background:transparent;
-	}
+button.navbar-toggle{
+    background:none !important;
+    border:none !important;
+    color:none !important;
+    
+}
