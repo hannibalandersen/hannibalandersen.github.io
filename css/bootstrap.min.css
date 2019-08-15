@@ -1127,6 +1127,7 @@ hr {
 	font-weight: 500;
 	line-height: 1.1;
 	color: inherit
+		
 }
 .h1 .small, .h1 small, .h2 .small, .h2 small, .h3 .small, .h3 small, .h4 .small, .h4 small, .h5 .small, .h5 small, .h6 .small, .h6 small, h1 .small, h1 small, h2 .small, h2 small, h3 .small, h3 small, h4 .small, h4 small, h5 .small, h5 small, h6 .small, h6 small {
 	font-weight: 400;
@@ -1221,6 +1222,7 @@ p {
 }
 a.text-primary:focus, a.text-primary:hover {
 	color: #286090
+		
 }
 .text-success {
 	color: #3c763d
@@ -4001,7 +4003,7 @@ select[multiple].input-group-sm>.form-control, select[multiple].input-group-sm>.
 		text-shadow: 1px 1px 7px #fff;
 }
 .navbar-inverse .navbar-nav>li>a:focus, .navbar-inverse .navbar-nav>li>a:hover {
-	color: #000;
+	color: #fff;
 	background-color: transparent
 }
 .navbar-inverse .navbar-nav>.active>a, .navbar-inverse .navbar-nav>.active>a:focus, .navbar-inverse .navbar-nav>.active>a:hover {
@@ -4013,7 +4015,7 @@ select[multiple].input-group-sm>.form-control, select[multiple].input-group-sm>.
 	background-color: transparent
 }
 .navbar-inverse .navbar-toggle {
-	border-color: #333
+	border-color: none;
 }
 .navbar-inverse .navbar-toggle:focus, .navbar-inverse .navbar-toggle:hover {
 	background-color: #333
