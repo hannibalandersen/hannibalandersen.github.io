@@ -3717,8 +3717,8 @@ select[multiple].input-group-sm>.form-control, select[multiple].input-group-sm>.
 }
 .navbar-toggle .icon-bar {
 	display: block;
-	width: 14px;
-	height: 1px;
+	width: 15px;
+	height: 2px;
 	border-radius: 0px
 }
 .navbar-toggle .icon-bar+.icon-bar {
@@ -3904,7 +3904,7 @@ select[multiple].input-group-sm>.form-control, select[multiple].input-group-sm>.
 }
 .navbar-default {
 	background-color: #f8f8f8;
-	border-color: #e7e7e7
+	border-color: none
 }
 .navbar-default .navbar-brand {
 	color: #222
@@ -3987,6 +3987,7 @@ select[multiple].input-group-sm>.form-control, select[multiple].input-group-sm>.
 .navbar-inverse .navbar-brand {
 	color: #fff;
 		text-shadow: 0px 0px 7px #555;
+	
 }
 .navbar-inverse .navbar-brand:focus, .navbar-inverse .navbar-brand:hover {
 	color: #111;
@@ -3997,7 +3998,7 @@ select[multiple].input-group-sm>.form-control, select[multiple].input-group-sm>.
 }
 .navbar-inverse .navbar-nav>li>a {
 	color: #000;
-		text-shadow: 1px 1px 7px #ffe;
+		text-shadow: 1px 1px 7px #fff;
 }
 .navbar-inverse .navbar-nav>li>a:focus, .navbar-inverse .navbar-nav>li>a:hover {
 	color: #000;

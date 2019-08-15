@@ -2,6 +2,7 @@ button.navbar-toggle{
     background:none !important;
     border:none !important;
     color:none !important;
+	
 }
 .navbar-inverse .navbar-toggle .icon-bar{
 	box-shadow: 2px 2px 2px 0px rgba(0,0,0,0.25); 
