@@ -3685,7 +3685,7 @@ select[multiple].input-group-sm>.form-control, select[multiple].input-group-sm>.
 	float: left;
 	height: 50px;
 	padding: 15px 15px;
-	font-size: 18px;
+	font-size: 20px;
 	line-height: 20px
 }
 .navbar-brand:focus, .navbar-brand:hover {
@@ -3710,16 +3710,16 @@ select[multiple].input-group-sm>.form-control, select[multiple].input-group-sm>.
 	background-color: transparent;
 	background-image: none;
 	border: 0px solid transparent;
-	border-radius: 4px
+	border-radius: 10px
 }
 .navbar-toggle:focus {
 	outline: 0
 }
 .navbar-toggle .icon-bar {
 	display: block;
-	width: 22px;
-	height: 2px;
-	border-radius: 1px
+	width: 14px;
+	height: 1px;
+	border-radius: 0px
 }
 .navbar-toggle .icon-bar+.icon-bar {
 	margin-top: 4px
@@ -3989,14 +3989,15 @@ select[multiple].input-group-sm>.form-control, select[multiple].input-group-sm>.
 		text-shadow: 0px 0px 7px #555;
 }
 .navbar-inverse .navbar-brand:focus, .navbar-inverse .navbar-brand:hover {
-	color: #D6FFC5;
+	color: #111;
 	background-color: transparent
 }
 .navbar-inverse .navbar-text {
 	color: #222
 }
 .navbar-inverse .navbar-nav>li>a {
-	color: #555
+	color: #000;
+		text-shadow: 1px 1px 7px #ffe;
 }
 .navbar-inverse .navbar-nav>li>a:focus, .navbar-inverse .navbar-nav>li>a:hover {
 	color: #000;
@@ -4020,7 +4021,7 @@ select[multiple].input-group-sm>.form-control, select[multiple].input-group-sm>.
 	background-color: #fff
 }
 .navbar-inverse .navbar-collapse, .navbar-inverse .navbar-form {
-	border-color: #fff
+	border-color: none;
 }
 .navbar-inverse .navbar-nav>.open>a, .navbar-inverse .navbar-nav>.open>a:focus, .navbar-inverse .navbar-nav>.open>a:hover {
 	color: #fff;
