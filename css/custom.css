@@ -9,12 +9,12 @@ button.navbar-toggle{
 }
 
 
-
+ 
 a.contactlink:hover span {
     display:none;
 }
 a.contactlink:hover:before {
     color:red;
-    font-size:24px;
+    font-size:25px;
 	content:"hannibalandersen{a}gmail.com";
 }
