@@ -8,3 +8,13 @@ button.navbar-toggle{
 	box-shadow: 2px 2px 2px 0px rgba(0,0,0,0.25); 
 }
 
+
+
+a.contactlink:hover span {
+    display:none;
+}
+a.contactlink:hover:before {
+    color:red;
+    font-size:24px;
+	content:"hannibalandersen{a}gmail.com";
+}
