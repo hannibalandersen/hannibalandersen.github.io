@@ -1152,7 +1152,7 @@ hr {
 	font-size: 36px
 }
 .h2, h2 {
-	font-size: 30px
+	font-size: 14px
 }
 .h3, h3 {
 	font-size: 24px;
@@ -3595,7 +3595,7 @@ select[multiple].input-group-sm>.form-control, select[multiple].input-group-sm>.
 
 @media (min-width:768px) {
 .navbar-header {
-	float: left
+	float: right
 }
 }
 .navbar-collapse {
@@ -3687,7 +3687,7 @@ select[multiple].input-group-sm>.form-control, select[multiple].input-group-sm>.
 	float: left;
 	height: 50px;
 	padding: 15px 15px;
-	font-size: 20px;
+	font-size: 12px;
 	line-height: 20px
 }
 .navbar-brand:focus, .navbar-brand:hover {
@@ -3744,7 +3744,7 @@ select[multiple].input-group-sm>.form-control, select[multiple].input-group-sm>.
 @media (max-width:767px) {
 .navbar-nav .open .dropdown-menu {
 	position: static;
-	float: none;
+	float: right;
 	width: auto;
 	margin-top: 0;
 	background-color: transparent;
@@ -3964,7 +3964,7 @@ select[multiple].input-group-sm>.form-control, select[multiple].input-group-sm>.
 }
 .navbar-default .navbar-nav .open .dropdown-menu>.disabled>a, .navbar-default .navbar-nav .open .dropdown-menu>.disabled>a:focus, .navbar-default .navbar-nav .open .dropdown-menu>.disabled>a:hover {
 	color: #ccc;
-	background-color: transparent
+	background-color: dimgray
 }
 }
 .navbar-default .navbar-link {
