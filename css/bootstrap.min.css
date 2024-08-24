@@ -1282,7 +1282,7 @@ a.bg-danger:focus, a.bg-danger:hover {
 .page-header {
 	padding-bottom: 9px;
 	margin: 40px 0 20px;
-	border-bottom: 1px solid #eee
+	border-bottom: 0px solid #eee
 }
 ol, ul {
 	margin-top: 0;
@@ -3964,7 +3964,7 @@ select[multiple].input-group-sm>.form-control, select[multiple].input-group-sm>.
 }
 .navbar-default .navbar-nav .open .dropdown-menu>.disabled>a, .navbar-default .navbar-nav .open .dropdown-menu>.disabled>a:focus, .navbar-default .navbar-nav .open .dropdown-menu>.disabled>a:hover {
 	color: #ccc;
-	background-color: dimgray
+	background-color: transparent
 }
 }
 .navbar-default .navbar-link {
