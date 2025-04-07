@@ -1046,7 +1046,7 @@ body {
 	font-size: 13px;
 	line-height: 1.42857143;
 	color: #333;
-	background-color: #fff
+	background-color: #ffe
 }
 button, input, select, textarea {
 	font-family: inherit;
@@ -3429,7 +3429,7 @@ select[multiple].input-group-sm>.form-control, select[multiple].input-group-sm>.
 }
 .nav .open>a, .nav .open>a:focus, .nav .open>a:hover {
 	background-color: #eee;
-	border-color: #337ab7
+	border-color: #FFFFFF
 }
 .nav .nav-divider {
 	height: 1px;
@@ -3585,6 +3585,7 @@ select[multiple].input-group-sm>.form-control, select[multiple].input-group-sm>.
 	min-height: 50px;
 	margin-bottom: 20px;
 	border: 1px solid transparent
+        
 }
 
 @media (min-width:768px) {
@@ -3689,6 +3690,7 @@ select[multiple].input-group-sm>.form-control, select[multiple].input-group-sm>.
 	padding: 15px 15px;
 	font-size: 13px;
 	line-height: 20px
+        
 }
 .navbar-brand:focus, .navbar-brand:hover {
 	text-decoration: none
@@ -3739,7 +3741,9 @@ select[multiple].input-group-sm>.form-control, select[multiple].input-group-sm>.
 	padding-top: 10px;
 	padding-bottom: 10px;
 	line-height: 20px;
-    margin-left:-15px; /* Added by me! Hannibal! */
+   
+   
+   
     
 }
 
@@ -3945,11 +3949,12 @@ select[multiple].input-group-sm>.form-control, select[multiple].input-group-sm>.
 	background-color: #fff
 }
 .navbar-default .navbar-collapse, .navbar-default .navbar-form {
-	border-color: #fff
+	border-color: #fff;
 }
 .navbar-default .navbar-nav>.open>a, .navbar-default .navbar-nav>.open>a:focus, .navbar-default .navbar-nav>.open>a:hover {
 	color: #fff;
 	background-color: #fff
+    
 }
 
 @media (max-width:767px) {
