@@ -1054,11 +1054,11 @@ button, input, select, textarea {
 	line-height: inherit
 }
 a {
-	color: #337ab7;
+	color: #dd0000;
 	text-decoration: none
 }
 a:focus, a:hover {
-	color: #23527c;
+	color: #FF8080;
 	text-decoration: underline
 }
 a:focus {
@@ -1219,10 +1219,10 @@ p {
 	color: #777
 }
 .text-primary {
-	color: #337ab7
+	color: #ee0000
 }
 a.text-primary:focus, a.text-primary:hover {
-	color: #286090
+	color: #ee0000
 		
 }
 .text-success {
